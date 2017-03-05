@@ -8,6 +8,8 @@ View internal IP and external IP
 $ npm install -g 52cik/myip
 ```
 
+> Windows users please install under `bash shell` or `cmder`.
+
 Then enter the command:
 
 ```
@@ -18,5 +20,5 @@ You can see the following information.
 
 ```
 internal: [ 'x.x.x.x' ]
-external: { ip: 'x.x.x.x', address: 'address information' }
+external: { ip: 'x.x.x.x', region: 'region information' }
 ```
