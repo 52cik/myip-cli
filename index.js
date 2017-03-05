@@ -1,5 +1,3 @@
-'use strict';
-
 const internal = require('./lib/internal');
 const external = require('./lib/external');
 

@@ -1,12 +1,13 @@
 {
   "name": "myip",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "View internal IP and external IP",
   "main": "index.js",
   "bin": {
     "myip": "bin/myip"
   },
   "scripts": {
+    "lint": "eslint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,5 +15,10 @@
     "external IP"
   ],
   "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
 }
