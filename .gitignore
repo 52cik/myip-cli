@@ -1,0 +1,21 @@
+# Logs
+npm-debug.log
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directories
+node_modules
+
+# windows thumbnail cache
+Thumbs.db
+Desktop.ini
+
+# Mac OS X DS_Store
+.DS_Store
+
+# webstorm
+.idea
+
+# Coverage directory
+coverage
