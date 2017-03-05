@@ -1,16 +1,16 @@
 # myip
 
-View internal IP and external IP
+A simple CLI for view internal IP and external IP
 
-## How to use it
+## Installation
+
+Prerequisites: Node.js (>=4.x, 6.x preferred), npm version 3+ and Git.
 
 ```
-$ npm install -g 52cik/myip
+$ npm install -g myip-cli
 ```
 
-> Windows users please install under `bash shell` or `cmder`.
-
-Then enter the command:
+## Usage:
 
 ```
 $ myip
@@ -19,6 +19,6 @@ $ myip
 You can see the following information.
 
 ```
-internal: [ 'x.x.x.x' ]
+internal: { en0: 'x.x.x.x', vnic0: 'x.x.x.x' }
 external: { ip: 'x.x.x.x', region: 'region information' }
 ```

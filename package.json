@@ -1,7 +1,7 @@
 {
-  "name": "myip",
-  "version": "0.1.2",
-  "description": "View internal IP and external IP",
+  "name": "myip-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI for view internal IP and external IP",
   "main": "index.js",
   "bin": {
     "myip": "bin/myip"
