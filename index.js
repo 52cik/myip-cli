@@ -1,8 +1,5 @@
 const internal = require('./lib/internal');
 const external = require('./lib/external');
 
-console.log('internal:', internal());
-
-external((data) => {
-  console.log('external:', data);
-});
+internal(data => console.log('internal:', data));
+external(data => console.log('external:', data));
