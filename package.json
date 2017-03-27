@@ -10,15 +10,23 @@
     "lint": "eslint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/52cik/myip-cli.git"
+  },
   "keywords": [
     "internal IP",
     "external IP"
   ],
   "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/52cik/myip-cli/issues"
+  },
+  "homepage": "https://github.com/52cik/myip-cli#readme",
   "devDependencies": {
-    "eslint": "^3.17.0",
-    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
     "eslint-plugin-import": "^2.2.0"
   }
 }
