@@ -1,6 +1,6 @@
 {
   "name": "myip-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple CLI for view internal IP and external IP",
   "main": "index.js",
   "bin": {
@@ -15,8 +15,8 @@
     "url": "git+https://github.com/52cik/myip-cli.git"
   },
   "keywords": [
-    "internal IP",
-    "external IP"
+    "internal ip",
+    "external ip"
   ],
   "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
   "license": "MIT",
