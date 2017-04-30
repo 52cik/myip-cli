@@ -2,6 +2,8 @@
 
 A simple CLI for view internal IP and external IP
 
+[中文说明](/README_CN.md)
+
 ## Installation
 
 Prerequisites: Node.js (>=4.x, 6.x preferred), npm version 3+ and Git.
