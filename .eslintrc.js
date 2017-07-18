@@ -5,5 +5,7 @@ module.exports = {
   rules: {
     'no-return-assign': 'off',
     'no-restricted-syntax': 'off',
+    'strict': 'off',
+    'no-console': 'off',
   },
 };
